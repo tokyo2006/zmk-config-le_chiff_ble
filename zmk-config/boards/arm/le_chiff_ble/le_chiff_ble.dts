@@ -73,15 +73,15 @@
 		sensors = <&center_encoder>;
 		triggers-per-rotation = <20>;
 	};
-	led_indicators {
-	compatible = "gpio-leds";
-	label = "LED indicators";
-	
-	led_capslock: led_capslock {
-		gpios = <&gpio0 11 GPIO_ACTIVE_HIGH>;
-		label = "Caps lock LED";
-	};
-	};
+
+	leds {
+        compatible = "gpio-leds";
+        red_led: led_0 {
+            gpios = <&gpio0 11 GPIO_ACTIVE_HIGH>;
+            label = "Red LED";
+        };
+    };
+
 	vbatt: vbatt {
         compatible = "zmk,battery-voltage-divider";
         io-channels = <&adc 2>;
