@@ -64,23 +64,13 @@
 		label = "CENTER_ENCODER";
 		a-gpios = <&gpio0 23 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		b-gpios = <&gpio1  9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		steps = <80>;
+		resolution = <4>;
 		status = "okay";
 	};
-
-	sensors: sensors {
+	sensors {
 		compatible = "zmk,keymap-sensors";
 		sensors = <&center_encoder>;
-		triggers-per-rotation = <20>;
 	};
-
-	leds {
-        compatible = "gpio-leds";
-        red_led: led_0 {
-            gpios = <&gpio0 11 GPIO_ACTIVE_HIGH>;
-            label = "Red LED";
-        };
-    };
 
 	vbatt: vbatt {
         compatible = "zmk,battery-voltage-divider";
