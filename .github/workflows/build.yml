@@ -28,9 +28,6 @@ jobs:
         #  cmake-args: (optional) extra arguments to pass to CMake as a string.
         include:
           - board: le_chiff_ble
-            shield: le_chiff_ble
-          - board: le_chiff_ble
-            shield: settings_reset
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -82,7 +79,6 @@ jobs:
       - name: Rename artifacts
         run: |
           mkdir build/artifacts
-          [ -f build/zephyr/zmk.hex ] && cp build/zephyr/zmk.hex "build/artifacts/${{ steps.variables.outputs.artifact-name }}.hex"
           [ -f build/zephyr/zmk.uf2 ] && cp build/zephyr/zmk.uf2 "build/artifacts/${{ steps.variables.outputs.artifact-name }}.uf2"
       - name: Archive artifacts
         uses: actions/upload-artifact@v2
