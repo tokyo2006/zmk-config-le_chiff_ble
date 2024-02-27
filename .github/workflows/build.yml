@@ -28,6 +28,9 @@ jobs:
         #  cmake-args: (optional) extra arguments to pass to CMake as a string.
         include:
           - board: le_chiff_ble
+            shield: le_chiff_ble
+          - board: le_chiff_ble
+            shield: settings_reset
     steps:
       - name: Checkout
         uses: actions/checkout@v2
