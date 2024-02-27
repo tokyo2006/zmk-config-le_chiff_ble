@@ -1,7 +1,7 @@
 name: Build
 
 env:
-  config-path: zmk-config
+  config-path: config
 
 on:
   push:
