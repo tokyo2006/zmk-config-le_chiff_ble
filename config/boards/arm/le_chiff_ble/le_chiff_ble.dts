@@ -78,6 +78,12 @@
         output-ohms = <2000000>;
         full-ohms = <(2000000 + 806000)>;
     };
+	leds {
+        compatible = "gpio-leds";
+        red_led: led_0 {
+            gpios = <&gpio0 11 GPIO_ACTIVE_HIGH>;
+            label = "Red LED";
+    };
 };
 
 &adc {
