@@ -7,11 +7,11 @@ on:
   push:
     paths:
       - ".github/workflows/build.yml"
-      - "zmk-config/**"
+      - "config/**"
   pull_request:
     paths:
       - ".github/workflows/build.yml"
-      - "zmk-config/**"
+      - "config/**"
   workflow_dispatch:
 
 jobs:
