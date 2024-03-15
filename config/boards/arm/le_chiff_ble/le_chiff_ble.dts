@@ -18,7 +18,7 @@
 		zephyr,sram = &sram0;
 		zephyr,flash = &flash0;
 		zmk,kscan = &kscan0;
-		zmk,matrix_transform = &2u_transform;
+		zmk,matrix_transform = &double_1u_transform;
 		zmk,battery = &vbatt;
 	};
 
