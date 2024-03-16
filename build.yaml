@@ -13,7 +13,6 @@
 #
 ---
 include:
-  - board: nice_nano_v2
-    shield: le_chiff_ble
-  - board: nice_nano_v2
+  - board: le_chiff_ble
+  - board: le_chiff_ble
     shield: settings_reset
