@@ -14,6 +14,6 @@
 ---
 include:
   - board: le_chiff_ble
-    shield: led_indicator
+#   shield: led_indicator
   - board: le_chiff_ble
     shield: settings_reset
