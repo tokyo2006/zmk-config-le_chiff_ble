@@ -14,6 +14,5 @@
 ---
 include:
   - board: le_chiff_ble
-    shield: rgbled_adapter
   - board: le_chiff_ble
     shield: settings_reset
