@@ -1,0 +1,17 @@
+/ {
+    aliases {
+        led-red = &led0;
+        led-blue = &led1;
+    };
+
+    leds {
+        compatible = "gpio-leds";
+        status = "okay";
+        led0: led_0 {
+            gpios = <&gpio0 15 GPIO_ACTIVE_LOW>;  // red LED, connected to P0.15
+        };
+        led1: led_1 {
+            gpios = <&gpio0 30 GPIO_ACTIVE_LOW>;  // green LED, connected to P0.30
+        };
+    };
+};
