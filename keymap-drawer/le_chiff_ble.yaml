@@ -33,9 +33,9 @@ layers:
   - {t: /, h: '?', s: '?'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:navigation-variant$$'}
   - {t: '$$mdi:keyboard-tab$$', h: Num}
-  - $$mdi:volume-off$$
-  - {t: '$$mdi:keyboard-space$$', h: Num}
   - {t: '$$mdi:keyboard-return$$', h: Symbol}
+  - {t: '$$mdi:keyboard-space$$', h: Num}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   NavFlash:
   - '&dongle_bootload_macro'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -69,7 +69,7 @@ layers:
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Symbol:
@@ -105,9 +105,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   Num:
   - '1'
   - '2'
@@ -141,7 +141,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - '&dongle_bootload_macro'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
