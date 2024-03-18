@@ -791,6 +791,9 @@ parse_config:
     LG(V):
       tap: 'V'
       hold: $$mdi:apple-keyboard-command$$
+    LG(G):
+      tap: 'G'
+      hold: $$mdi:apple-keyboard-command$$
     # Zoom
     RG(RS(A)):
       tap: $$mdi:microphone$$
