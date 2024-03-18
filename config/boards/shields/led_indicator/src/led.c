@@ -21,13 +21,13 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 #define LED_GPIO_NODE_ID DT_COMPAT_GET_ANY_STATUS_OKAY(gpio_leds)
 
 BUILD_ASSERT(DT_NODE_EXISTS(DT_ALIAS(led_red)), "An alias for a red LED is not found for LED_INDICATOR");
-BUILD_ASSERT(DT_NODE_EXISTS(DT_ALIAS(led_blue)), "An alias for a blue LED is not found for LED_INDICATOR");
+//BUILD_ASSERT(DT_NODE_EXISTS(DT_ALIAS(led_blue)), "An alias for a blue LED is not found for LED_INDICATOR");
 
 // GPIO-based LED device and indices of red/green/blue LEDs inside its DT node
 static const struct device *led_dev = DEVICE_DT_GET(LED_GPIO_NODE_ID);
-static const uint8_t rgb_idx[] = {DT_NODE_CHILD_IDX(DT_ALIAS(led_red)),
-                                  DT_NODE_CHILD_IDX(DT_ALIAS(led_blue))};
-
+// static const uint8_t rgb_idx[] = {DT_NODE_CHILD_IDX(DT_ALIAS(led_red)),
+//                                  DT_NODE_CHILD_IDX(DT_ALIAS(led_blue))};
+static const uint8_t rgb_idx[] = {DT_NODE_CHILD_IDX(DT_ALIAS(led_red))};
 // flag to indicate whether the initial boot up sequence is complete
 static bool initialized = false;
 
