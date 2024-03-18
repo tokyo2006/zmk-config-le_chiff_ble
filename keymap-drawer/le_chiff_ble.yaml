@@ -37,7 +37,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: Num}
   - {t: '$$mdi:keyboard-return$$', h: Symbol}
   NavFlash:
-  - '&dongle_bootload_macro'
+  - $$mdi:file-upload-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
