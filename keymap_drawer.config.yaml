@@ -4,26 +4,26 @@ draw_config:
   key_h: 80
 
   # keys border radius
-  key_rx: 2
-  key_ry: 2
+  key_rx: 4
+  key_ry: 4
 
   # key labels line spacing for multi-line labels
   line_spacing: 1
 
   # combo box dimensions
-  combo_w: 18
-  combo_h: 18
+  combo_w: 36
+  combo_h: 36
 
   # padding from the edge of cap to top and bottom legends
-  small_pad: 2
+  small_pad: 4
 
   # Padding between keys
   inner_pad_w: 1.5
   inner_pad_h: 1.5
 
   # padding between layers
-  outer_pad_w: 1
-  outer_pad_h: 1
+  outer_pad_w: 0
+  outer_pad_h: 0
 
   # gap between two halves for ortho layout generator
   # split_gap: 20 # This doesn't seem to have any effect either? 🤔
@@ -227,7 +227,7 @@ draw_config:
          */
 
         font-family: REM,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-        font-size: 16px;
+        font-size: 24px;
         font-kerning: normal;
         text-rendering: optimizeLegibility;
         fill: var(--color--text);
@@ -270,7 +270,7 @@ draw_config:
     }
     .shifted,
     .hold {
-        font-size: 12px;
+        font-size: 18px;
         text-anchor: middle;
     }
     .shifted {
@@ -303,14 +303,14 @@ draw_config:
         fill: none;
     }
     .combo.tap {
-        font-size: 12px;
+        font-size: 16px;
     }
     .combo.shifted {
-        font-size: 10px;
+        font-size: 13px;
         translate: -9px -2px;
     }
     .combo.hold {
-        font-size: 12px;
+        font-size: 16px;
         /* translate: 2px 0px; */
     }
 
@@ -395,6 +395,11 @@ parse_config:
     type: trans
 
   raw_binding_map:
+    # Macros
+    "&dongle_bootload_macro":
+      tap: $$mdi:file-upload-outline$$
+      hold: ''
+      shifted: ''
     # Layers
     "&ltq 1 BACKSPACE":
       tap:  $$mdi:backspace$$
