@@ -130,10 +130,10 @@
         Qwery {
             label = "Qwerty";
             bindings = <
-&kp Q       &kp W           &kp E             &kp R             &kp T      &kp Y       &kp U              &kp I                &kp O                    &kp P
-&hm LGUI A  &hm LEFT_ALT S  &hm LCTRL D       &hm LEFT_SHIFT F  &kp G      &kp H       &hm RIGHT_SHIFT J  &hm RCTRL K          &hm RIGHT_ALT L          &as COLON SEMICOLON
-&kp Z       &kp X           &kp C             &kp V             &kp B      &kp N       &kp M              &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH
-                            &ltq 1 BACKSPACE                    &lt 3 TAB  &kp C_MUTE  &lt 3 SPACE                             &lt 2 ENTER
+&kp Q       &kp W           &kp E             &kp R             &kp T      &kp Y         &kp U              &kp I                &kp O                    &kp P
+&hm LGUI A  &hm LEFT_ALT S  &hm LCTRL D       &hm LEFT_SHIFT F  &kp G      &kp H         &hm RIGHT_SHIFT J  &hm RCTRL K          &hm RIGHT_ALT L          &as COLON SEMICOLON
+&kp Z       &kp X           &kp C             &kp V             &kp B      &kp N         &kp M              &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH
+                            &ltq 1 BACKSPACE                    &lt 3 TAB  &ltq 2 ENTER  &lt 3 SPACE                             &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
