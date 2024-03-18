@@ -1,29 +1,29 @@
 draw_config:
   # key dimensions, non-ortho layouts use key_h for width as well
   # key_w: 100 # This doesn't seem to do anything? 🤔
-  key_h: 60
+  key_h: 40
 
   # keys border radius
-  key_rx: 4
-  key_ry: 4
+  key_rx: 2
+  key_ry: 2
 
   # key labels line spacing for multi-line labels
   line_spacing: 1
 
   # combo box dimensions
-  combo_w: 36
-  combo_h: 36
+  combo_w: 18
+  combo_h: 18
 
   # padding from the edge of cap to top and bottom legends
-  small_pad: 4
+  small_pad: 2
 
   # Padding between keys
   inner_pad_w: 1.5
   inner_pad_h: 1.5
 
   # padding between layers
-  outer_pad_w: 0
-  outer_pad_h: 0
+  outer_pad_w: 1
+  outer_pad_h: 1
 
   # gap between two halves for ortho layout generator
   # split_gap: 20 # This doesn't seem to have any effect either? 🤔
@@ -227,7 +227,7 @@ draw_config:
          */
 
         font-family: REM,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-        font-size: 24px;
+        font-size: 16px;
         font-kerning: normal;
         text-rendering: optimizeLegibility;
         fill: var(--color--text);
@@ -270,7 +270,7 @@ draw_config:
     }
     .shifted,
     .hold {
-        font-size: 18px;
+        font-size: 12px;
         text-anchor: middle;
     }
     .shifted {
@@ -303,14 +303,14 @@ draw_config:
         fill: none;
     }
     .combo.tap {
-        font-size: 16px;
+        font-size: 12px;
     }
     .combo.shifted {
-        font-size: 13px;
+        font-size: 10px;
         translate: -9px -2px;
     }
     .combo.hold {
-        font-size: 16px;
+        font-size: 12px;
         /* translate: 2px 0px; */
     }
 
