@@ -35,7 +35,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '1'}
   - $$mdi:volume-off$$
   - {t: '$$mdi:backspace$$', h: '2'}
-  - RIGHT CTRL
+  - $$mdi:volume-off$$
   '1':
   - '1'
   - '2'

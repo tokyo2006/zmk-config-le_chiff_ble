@@ -555,9 +555,7 @@ path.combo {
 </g>
 <g transform="translate(760, 280)" class="key keypos-34">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em">RIGHT</tspan><tspan x="0" dy="1.0em">CTRL</tspan>
-</text>
+<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:volume-off"/>
 </g>
 <g class="combo combopos-0">
 <rect rx="4" ry="4" x="222" y="22" width="36" height="36" class="combo"/>
