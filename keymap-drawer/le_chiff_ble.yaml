@@ -33,7 +33,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: '1'}
-  - $$mdi:volume-off$$
+  - '&soft_off'
   - {t: '$$mdi:backspace$$', h: '2'}
   - '3'
   '1':
