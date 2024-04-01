@@ -35,7 +35,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '1'}
   - '&soft_off'
   - {t: '$$mdi:backspace$$', h: '2'}
-  - '3'
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   '1':
   - '1'
   - '2'
@@ -143,7 +143,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [3, 2]
   k: '['
