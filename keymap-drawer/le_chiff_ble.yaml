@@ -33,9 +33,9 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: '1'}
-  - '&soft_off'
+  - $$mdi:volume-off$$
   - {t: '$$mdi:backspace$$', h: '2'}
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - RIGHT CTRL
   '1':
   - '1'
   - '2'
