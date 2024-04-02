@@ -550,12 +550,12 @@ path.combo {
 </g>
 <g transform="translate(764, 275) rotate(-7.0)" class="key keypos-33">
 <rect rx="4" ry="4" x="-48" y="-38" width="97" height="77" class="key"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:backspace"/>
-<text x="0" y="34" class="key hold">2</text>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:apple-keyboard-control"/>
 </g>
 <g transform="translate(635, 291) rotate(-7.0)" class="key keypos-34">
 <rect rx="4" ry="4" x="-78" y="-38" width="157" height="77" class="key"/>
-<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:volume-off"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:backspace"/>
+<text x="0" y="34" class="key hold">2</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="4" ry="4" x="259" y="15" width="36" height="36" class="combo"/>
@@ -950,12 +950,12 @@ path.combo {
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(764, 275) rotate(-7.0)" class="key held keypos-33">
-<rect rx="4" ry="4" x="-48" y="-38" width="97" height="77" class="key held"/>
-</g>
-<g transform="translate(635, 291) rotate(-7.0)" class="key trans keypos-34">
-<rect rx="4" ry="4" x="-78" y="-38" width="157" height="77" class="key trans"/>
+<g transform="translate(764, 275) rotate(-7.0)" class="key trans keypos-33">
+<rect rx="4" ry="4" x="-48" y="-38" width="97" height="77" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g transform="translate(635, 291) rotate(-7.0)" class="key held keypos-34">
+<rect rx="4" ry="4" x="-78" y="-38" width="157" height="77" class="key held"/>
 </g>
 <g class="combo combopos-0">
 <rect rx="4" ry="4" x="259" y="15" width="36" height="36" class="combo"/>

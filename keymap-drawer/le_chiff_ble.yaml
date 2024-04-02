@@ -34,8 +34,8 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: '1'}
   - $$mdi:volume-off$$
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:backspace$$', h: '2'}
-  - $$mdi:volume-off$$
   '1':
   - '1'
   - '2'
@@ -106,8 +106,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   '3':
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
