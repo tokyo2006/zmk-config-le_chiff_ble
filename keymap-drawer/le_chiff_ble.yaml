@@ -48,7 +48,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F5
   - Ctl+ $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - F12
