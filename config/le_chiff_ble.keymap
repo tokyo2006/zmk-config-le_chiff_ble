@@ -163,7 +163,7 @@
 &trans  &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &kp HOME        &trans  &trans     &kp UP_ARROW    &trans           &trans
 &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp LEFT_SHIFT  &trans  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
 &trans  &trans          &trans          &trans           &kp END         &trans  &trans     &trans          &trans           &trans
-                        &trans                           &trans          &trans  &mkp RCLK                  &mkp LCLK
+                        &trans                           &trans          &trans  &mkp LCLK                  &mkp RCLK
             >;
 
             label = "Navi";
