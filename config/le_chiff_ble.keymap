@@ -17,15 +17,11 @@
     delay-ms = <0>;                   // 0
 };
 
-
 &mmv {
     time-to-max-speed-ms = <400>;
     acceleration-exponent = <1>;
 };
 
-// makes it possible to hold backspace
-
-&lt { quick_tap_ms = <200>; };
 
 / {
     combos {
