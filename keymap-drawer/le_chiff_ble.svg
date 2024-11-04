@@ -507,12 +507,9 @@ rect.held, rect.combo.held {
 <g transform="translate(437, 222) rotate(-7.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-54" y="-26" width="108" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-48" y="-24" width="96" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 60%">Sft+</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">$$mdi:key…</tspan>
-</text>
-<a href="#Num">
-<text x="0" y="24" class="key hold layer-activator">Num</text>
-</a></g>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-return"/>
+<use href="#mdi:numeric" xlink:href="#mdi:numeric" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:numeric"/>
+</g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="59" y="29" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="64" y="33" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
@@ -1230,9 +1227,10 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-27" y="-24" width="54" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(437, 222) rotate(-7.0)" class="key held keypos-34">
-<rect rx="6" ry="6" x="-54" y="-26" width="108" height="52" class="key held side"/>
-<rect rx="4" ry="4" x="-48" y="-24" width="96" height="40" class="key held"/>
+<g transform="translate(437, 222) rotate(-7.0)" class="key trans keypos-34">
+<rect rx="6" ry="6" x="-54" y="-26" width="108" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-48" y="-24" width="96" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="59" y="29" width="28" height="26" class="combo"/>
@@ -1468,9 +1466,10 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-27" y="-24" width="54" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(437, 222) rotate(-7.0)" class="key held keypos-34">
-<rect rx="6" ry="6" x="-54" y="-26" width="108" height="52" class="key held side"/>
-<rect rx="4" ry="4" x="-48" y="-24" width="96" height="40" class="key held"/>
+<g transform="translate(437, 222) rotate(-7.0)" class="key trans keypos-34">
+<rect rx="6" ry="6" x="-54" y="-26" width="108" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-48" y="-24" width="96" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="59" y="29" width="28" height="26" class="combo"/>
